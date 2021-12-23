@@ -1,0 +1,23 @@
+
+.container{
+    display: flex;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.home{
+    background-color: darkred;
+}
+.bubble{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    top:100px;
+}
+.bubble2{
+    background-color: rgb(226, 43, 89);
+    height: 100px;
+    width: 100px;
+    top:-100px;
+}
