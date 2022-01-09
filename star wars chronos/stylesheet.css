@@ -59,17 +59,21 @@ footer {
 a:visited {
   color: rgb(182, 132, 197);
 }
-ul, ol{
-    font-size: 18px;
-    list-style: upper-roman;
-    padding:20px 20px 05px 30px;
+ul,
+ol {
+  font-size: 18px;
+  list-style: upper-roman;
+  padding: 20px 20px 05px 30px;
 }
 #film {
-  list-style: georgian inside url("https://img.icons8.com/ios/36/000000/star-wars.png");
+  list-style: georgian inside
+    url("https://img.icons8.com/ios/36/000000/star-wars.png");
 }
-#serie{
-    list-style: georgian inside url("https://img.icons8.com/plasticine/36/000000/disney-plus.png");
+#serie {
+  list-style: georgian inside
+    url("https://img.icons8.com/plasticine/36/000000/disney-plus.png");
 }
-#anime{
-    list-style: georgian inside url("https://img.icons8.com/plasticine/36/000000/disney-plus.png");
+#anime {
+  list-style: georgian inside
+    url("https://img.icons8.com/plasticine/36/000000/disney-plus.png");
 }
