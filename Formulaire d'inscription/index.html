@@ -8,24 +8,24 @@
   </head>
   <body>
     <header>
-      <h1>Inscription à la newsletter</h1>
-      <h2>Merci de remplir ce formulaire de contact</h2>
+      <h1 id="title">Inscription à la newsletter</h1>
+      <p id="description">Merci de remplir ce formulaire de contact</p>
     </header>
     <section>
       <div class="container">
         <div class="formulaire">
-          <div class="centerformulaire">
+          <form id="survey-form" class="centerformulaire">
             <div>
-              <p>Name</p>
-              <input type="text" placeholder="Enter your name" />
+              <p id="name">Name</p>
+              <input id="name-label" type="text" placeholder="Enter your name" />
             </div>
             <div>
-              <p>Email</p>
-              <input type="email" placeholder="Enter your Email" />
+              <p id="email">Email</p>
+              <input id="email-label" type="email" placeholder="Enter your Email" />
             </div>
             <div>
-              <p>Age</p>
-              <input type="number" placeholder="Age" />
+              <p id="number">Age</p>
+              <input id="number-label" type="number" placeholder="Age" />
             </div>
             <br />
             <div>
@@ -120,10 +120,13 @@
               >
               <textarea id="story" name="story" rows="5" cols="33">
 Mettez votre commentaire ici ...
-                </textarea
-              >
+              </textarea>
             </div>
-          </div>
+            <br />
+            <div class="form-example">
+              <input type="submit" value="Subscribe!" />
+            </div>
+          </form>
         </div>
       </div>
     </section>
