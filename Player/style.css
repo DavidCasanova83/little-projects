@@ -1,0 +1,130 @@
+
+.container {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(180deg, #ffc757dc,#bbad2d8c);
+  color:white;
+}
+
+img{
+  width:35px;
+  height:35px;
+}
+
+.box {
+  height: 500px;
+  width: 200px;
+  background: linear-gradient(180deg, #496E7A, #323940);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 5px #00000080;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  position: relative;
+}
+
+h1,h3{
+  font-size: 12px;
+}
+
+h2{
+  position: relative;
+  top:20px;
+  font-size: 20px;
+}
+
+.pictures{
+  margin: 40px;
+  width:150;
+  height:150;
+  border-radius: 50%;
+  background: rgba(238, 201, 35, 0.747);
+  box-shadow: 5px 5px 15px 5px #00000080;
+
+}
+
+.timer{
+  position: relative;
+  top:-50px;
+}
+
+.timer-line{
+  position: relative;
+  top:-80px;
+  left:-30px;
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  border: solid 3px rgba(255, 255, 255, 0.671);
+  border-top-color: transparent;
+}
+
+.timer-current{
+  position: relative;
+  top:-285px;
+  left:-30px;
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  border: solid 3px rgba(238, 201, 35, 0.747);
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.timer-dot{
+  width: 20px;
+  height: 20px;
+  background: rgb(238, 201, 35);
+  position: relative;
+  border-radius: 50%;
+  top:-324px;
+  left:130px;
+}
+
+#time-music{
+  color:rgba(238, 201, 35, 0.747);
+}
+
+.player{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width:150%;
+  column-gap: 55px;
+  top:10px;
+}
+
+.settings{
+  position: relative;
+  bottom:-50px;
+  width:150%;
+  display: flex;
+  justify-content: center;
+  column-gap: 55px;
+}
+
+.play{
+  width:60px;
+  height:60px;
+}
+
+.play-end{
+  transform: rotate(180deg);
+  opacity: 0.5;
+}
+
+#settings-img{
+  width:25px;
+  height:25px;
+}
